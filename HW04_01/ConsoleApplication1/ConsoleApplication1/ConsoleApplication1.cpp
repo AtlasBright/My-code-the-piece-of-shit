@@ -70,5 +70,7 @@ int main(){
 		adresspool[i].readadressOut(writeOut);
 	}
 	delete[] adresspool;
+	readIn.close();
+	writeOut.close();
 	return 0;
 }
